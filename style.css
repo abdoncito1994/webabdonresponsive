@@ -1,0 +1,132 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: floralwhite;
+}
+
+header
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 200px;
+    text-align: center;
+}
+
+header img
+{
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+header div p
+{
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+header div nav
+{
+    position: absolute;
+    left: calc(50% - 118px);
+    top: 180px;
+    display: block;
+    margin-top: 42px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: whitesmoke;
+}
+
+.first
+{
+    text-decoration: none;
+    color: black;
+}
+
+.second
+{
+    text-decoration: none;
+    color: black;
+}
+
+.third
+{
+    text-decoration: none;
+    color: black;
+}
+
+main
+{
+    width: 100%;
+    height: auto;
+}
+
+main .firstsection
+{
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+main .firstsection p
+{
+margin-top: 5px;
+}
+
+main .secondsection
+{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main .secondsection p
+{
+    margin-top: 5px;
+}
+
+main nav 
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+footer
+{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    position: relative;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
